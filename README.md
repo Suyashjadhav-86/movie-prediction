@@ -104,22 +104,6 @@ Install dependencies using:
 
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-# ▶️ How to Run
-
-Clone this repository:
-
-git clone https://github.com/your-username/imdb-rating-prediction.git
-
-
-Navigate into project folder:
-
-cd imdb-rating-prediction
-
-
-Run the script:
-
-python imdb_model.py
-
 # 🛠 Technologies Used
 
 Python
