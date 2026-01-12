@@ -1,8 +1,8 @@
-🎬 IMDb India Movie Rating Prediction
+# 🎬 IMDb India Movie Rating Prediction
 
 A machine learning project to predict IMDb movie ratings based on Genre, Director, and Lead Actor using Random Forest Regression.
 
-📌 Project Overview
+# 📌 Project Overview
 
 This project demonstrates a complete workflow for predicting movie ratings using machine learning.
 It includes:
@@ -21,7 +21,7 @@ Rating distribution visualization
 
 The goal is to understand how movie metadata influences its IMDb rating.
 
-📂 Dataset
+# 📂 Dataset
 
 The project uses the file:
 
@@ -42,7 +42,7 @@ Rating (target variable)
 
 Missing values are handled carefully to ensure data quality.
 
-🧪 Model Used
+# 🧪 Model Used
 Random Forest Regressor
 
 Handles non-linear relationships
@@ -51,7 +51,7 @@ Works well with categorical features after one-hot encoding
 
 Resistant to overfitting with proper tree count
 
-🧹 Data Preprocessing Steps
+# 🧹 Data Preprocessing Steps
 
 Remove rows where Rating is missing
 
@@ -63,7 +63,7 @@ Convert categorical data to numeric using OneHotEncoder
 
 Split into training/testing sets
 
-🧠 Training & Testing
+# 🧠 Training & Testing
 
 The dataset is split into:
 
@@ -75,7 +75,7 @@ The model is trained using:
 
 model = RandomForestRegressor(n_estimators=100, random_state=42)
 
-📊 Evaluation Metrics
+# 📊 Evaluation Metrics
 
 Two metrics are used:
 
@@ -89,7 +89,7 @@ Movie Rating Prediction Model Results
 Root Mean Squared Error (RMSE): 0.45
 R² Score: 0.72
 
-📈 Visualizations
+# 📈 Visualizations
 
 A histogram of the movie rating distribution is generated:
 
@@ -98,13 +98,13 @@ sns.histplot(df["Rating"], bins=20)
 
 This helps understand how ratings are spread across movies.
 
-📦 Requirements
+# 📦 Requirements
 
 Install dependencies using:
 
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-▶️ How to Run
+# ▶️ How to Run
 
 Clone this repository:
 
@@ -120,7 +120,7 @@ Run the script:
 
 python imdb_model.py
 
-🛠 Technologies Used
+# 🛠 Technologies Used
 
 Python
 
@@ -134,7 +134,7 @@ Matplotlib
 
 Scikit-Learn
 
-🚀 Future Improvements
+# 🚀 Future Improvements
 
 Include more features (budget, votes, runtime, etc.)
 
@@ -143,7 +143,3 @@ Try models like XGBoost, LightGBM
 Hyperparameter tuning
 
 Deploy using Flask/Streamlit
-
-🤝 Contribution
-
-Feel free to fork the repo and submit pull requests to improve the project!
